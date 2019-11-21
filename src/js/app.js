@@ -1,0 +1,1 @@
+$(function(){$(".search").on("keyup",function(){var t=$(this).val().toLowerCase();$(".table div").filter(function(){$(this).toggle(-1<$(this).text().toLowerCase().indexOf(t))})})});
